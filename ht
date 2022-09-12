@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+</head>
+
+<body background-color="green">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis fugiat repellendus aliquam veritatis ducimus
+    voluptatem earum quibusdam cumque, repellat facere minima! Architecto facilis labore ea fugiat molestias? Eaque,
+    ipsam optio.
+    <div>
+        <table border="1px">
+            <th>class</th>
+            <th>roll no.</th>
+            <th>sec</th>
+            <tr>
+                <td>5th</td>
+                <td>7</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>6th</td>
+                <td>8</td>
+                <td>Ab</td>
+            </tr>
+            <tr>
+                <td>9th</td>
+                <td>9</td>
+                <td>Ac</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <form action="php">
+            <label for="nme">enter name</label>
+            <input type="text" name="enter name" id="nme">
+            <label for="gnder">male</label>
+            <input type="radio" value="male" id="gnder" name="slt gndr">
+            <label for="fmle">female</label>
+            <input type="radio" value="male" id="fmle" name="slt gndr">
+            <label for="write">write about website</label>
+            <textarea name="text" id="write" cols="30" rows="10">        </textarea><br>
+            <h2> <strong><em><b><label for="wnt">want to learn to make
+                                website</label></b></em></strong></h2>
+
+            <br><label for="wnt">yes</label>
+            <input type="checkbox" name="want " id="wnt">
+            <br>
+            <label for="lrn">want to learn html</label>
+            <select name="lrn html" id="lrn">
+                <option value="yes">yes</option>
+                <option value="yes">no i know already</option>
+            </select>
+            <br>
+            <br> <label for="pswrd">enter password</label>
+            <input type="password" name="passwords" id="pswrd">
+            <br><label for="sbt">submit</label><button value="submit" name="data" id="sbt" aria-placeholder="submit"></button><button type="reset">reset</button>
+
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>
